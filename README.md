@@ -1,7 +1,7 @@
 
 # readme-generator-pro
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Table of Contents
 * [License](#license)
 * [Description](#description)
@@ -22,5 +22,5 @@ Fork the repo!
 I would recommend visual testing
 ## Questions
 Contact me:
-Github:[vtaymany](https://github.com/vtaymany/)/n
-Email:[vtaymany@gmail.com](vtaymany@gmail.com)
+###Github:[vtaymany](https://github.com/vtaymany/)
+###Email:[vtaymany@gmail.com](vtaymany@gmail.com)

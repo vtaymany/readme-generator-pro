@@ -103,8 +103,8 @@ ${contributionGuidelines}
 ${testInstructions}
 ## Questions
 Contact me:
-Github:[${githubUsername}](https://github.com/${githubUsername}/)/n
-Email:[${emailAddress}](${emailAddress})
+###Github:[${githubUsername}](https://github.com/${githubUsername}/)
+###Email:[${emailAddress}](${emailAddress})
 `
       createReadme(markdownTemplate)
     }
