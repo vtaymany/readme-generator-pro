@@ -39,8 +39,21 @@ inquirer
       type: 'checkbox',
       message: 'What license does this application use?',
       choices: [
-        '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
-        'None',
+        {
+          name: 'MIT',
+          value:
+            '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+        },
+        {
+          name: 'Apache-2.0',
+          value:
+            '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+        },
+        {
+          name: 'ISC',
+          value:
+            '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
+        },
       ],
     },
   ])
@@ -56,7 +69,7 @@ inquirer
     }) => {
       const markdownTemplate = `
 # ${title}
-## License
+## License Badges
 ${license}
 ## Table of Contents
 * [Description](#description)
@@ -76,6 +89,8 @@ ${usageInformation}
 ${contributionGuidelines}
 ## Test
 ${testInstructions}
+## License
+${license.name}
 `
       createReadme(markdownTemplate)
     }
