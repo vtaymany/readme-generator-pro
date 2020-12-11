@@ -22,7 +22,7 @@ Users can clone the repo and follow the directions in the video for usage
 
 ## Usage
 
-<img src="assets/images/demo.mp4" raw=true alt=“demo”/>
+<video src="assets/demo.mp4"" width="320" height="200" controls preload></video>
 
 ## Contributors
 
