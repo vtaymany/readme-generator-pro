@@ -41,8 +41,45 @@ inquirer
       choices: ['MIT License', 'None'],
     },
   ])
-  .then((response) =>
-    fs.writeFile('READMEE.md', data, (err) =>
-      err ? console.error(err) : console.log('Success!')
-    )
+  .then(
+    ({
+      title,
+      description,
+      installation,
+      usageInformation,
+      contributionGuidelines,
+      testInstructions,
+      license,
+    }) => {
+      const markdownTemplate = `
+    # ${title}
+    ## Table of Contents
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributors](#contributors)
+    * [Test](#test)
+    * [Questions](#questions)
+    ## Description
+    ${description}
+    ## Installation 
+    ${installation}
+    ## Usage 
+    ${usageInformation}
+    ## Contributors
+    ${contributionGuidelines}
+    ## Test
+    ${testInstructions}
+    ## License
+    ${license}
+    `
+      createReadme(markdownTemplate)
+    }
   )
+
+function createReadme(data) {
+  fs.writeFile('README.md', data, (err) =>
+    err ? console.error(err) : console.log('Success!')
+  )
+}
