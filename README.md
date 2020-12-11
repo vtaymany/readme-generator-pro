@@ -36,6 +36,6 @@ I would recommend visual testing
 
 Contact me:
 
-### Github:[vtaymany](https://github.com/vtaymany/)
+###### Github:[vtaymany](https://github.com/vtaymany/)
 
-### Email:[vtaymany@gmail.com](vtaymany@gmail.com)
+###### Email:[vtaymany@gmail.com](vtaymany@gmail.com)
