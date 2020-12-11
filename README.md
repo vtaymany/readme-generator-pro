@@ -1,7 +1,7 @@
 
-# a
+# readme-generator-pro
 ## License Badges
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT),[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0),[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -11,14 +11,16 @@
 * [Test](#test)
 * [Questions](#questions)
 ## Description
-a
+it generates readme's
 ## Installation 
-a
+clone the repo
 ## Usage 
-a
+see video
 ## Contributors
-a
+fork the repo
 ## Test
-
-## License
-undefined
+visual testing
+## Questions
+Contact me:
+Github:[vtaymany](https://github.com/vtaymany/)
+Email:[vtaymany@gmail.com](vtaymany@gmail.com)

@@ -56,6 +56,16 @@ inquirer
         },
       ],
     },
+    {
+      name: 'githubUsername',
+      type: 'input',
+      message: 'What is your Github username?',
+    },
+    {
+      name: 'emailAddress',
+      type: 'input',
+      message: 'What is your email address?',
+    },
   ])
   .then(
     ({
@@ -66,6 +76,8 @@ inquirer
       contributionGuidelines,
       testInstructions,
       license,
+      githubUsername,
+      emailAddress,
     }) => {
       const markdownTemplate = `
 # ${title}
@@ -89,8 +101,10 @@ ${usageInformation}
 ${contributionGuidelines}
 ## Test
 ${testInstructions}
-## License
-${license.name}
+## Questions
+Contact me:
+Github:[${githubUsername}](https://github.com/${githubUsername}/)
+Email:[${emailAddress}](${emailAddress})
 `
       createReadme(markdownTemplate)
     }
