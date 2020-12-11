@@ -22,7 +22,7 @@ Users can clone the repo and follow the directions in the video for usage
 
 ## Usage
 
-<video src="assets/demo.mp4"" width="320" height="200" controls preload></video>
+<iframe src="https://drive.google.com/file/d/1r5eQA72Lrf_wjO7rDWq86Z9riucGOIyu/preview" width="640" height="480"></iframe>
 
 ## Contributors
 
