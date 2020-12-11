@@ -38,7 +38,10 @@ inquirer
       name: 'license',
       type: 'checkbox',
       message: 'What license does this application use?',
-      choices: ['MIT License', 'None'],
+      choices: [
+        '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+        'None',
+      ],
     },
   ])
   .then(
