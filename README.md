@@ -22,7 +22,7 @@ Users can clone the repo and follow the directions in the video for usage
 
 ## Usage
 
-<iframe src="https://drive.google.com/file/d/1r5eQA72Lrf_wjO7rDWq86Z9riucGOIyu/preview" width="640" height="480"></iframe>
+[Watch the demo here!](https://drive.google.com/file/d/1r5eQA72Lrf_wjO7rDWq86Z9riucGOIyu/view)
 
 ## Contributors
 
