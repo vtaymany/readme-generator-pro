@@ -22,7 +22,7 @@ Users can clone the repo and follow the directions in the video for usage
 
 ## Usage
 
-Users may add this to their existing application to create README.md files faster
+<img src="assets/images/demo.mp4" raw=true alt=“demo”/>
 
 ## Contributors
 
