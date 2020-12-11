@@ -1,26 +1,26 @@
 
 # readme-generator-pro
-## License Badges
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Table of Contents
+* [License](#license)
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributors](#contributors)
 * [Test](#test)
 * [Questions](#questions)
 ## Description
-it generates readme's
+This project's main goal is create a README.md file from the command line interface
 ## Installation 
-clone the repo
+Users can clone the repo and follow the directions in the video for usage
 ## Usage 
-see video
+Users may add this to their existing application to create README.md files faster
 ## Contributors
-fork the repo
+Fork the repo!
 ## Test
-visual testing
+I would recommend visual testing
 ## Questions
 Contact me:
-Github:[vtaymany](https://github.com/vtaymany/)
+Github:[vtaymany](https://github.com/vtaymany/)/n
 Email:[vtaymany@gmail.com](vtaymany@gmail.com)

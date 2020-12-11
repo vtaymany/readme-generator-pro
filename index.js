@@ -81,13 +81,13 @@ inquirer
     }) => {
       const markdownTemplate = `
 # ${title}
-## License Badges
+## License
 ${license}
 ## Table of Contents
+* [License](#license)
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributors](#contributors)
 * [Test](#test)
 * [Questions](#questions)
@@ -103,7 +103,7 @@ ${contributionGuidelines}
 ${testInstructions}
 ## Questions
 Contact me:
-Github:[${githubUsername}](https://github.com/${githubUsername}/)
+Github:[${githubUsername}](https://github.com/${githubUsername}/)/n
 Email:[${emailAddress}](${emailAddress})
 `
       createReadme(markdownTemplate)
