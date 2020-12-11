@@ -56,6 +56,8 @@ inquirer
     }) => {
       const markdownTemplate = `
 # ${title}
+## License
+${license}
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
@@ -74,8 +76,6 @@ ${usageInformation}
 ${contributionGuidelines}
 ## Test
 ${testInstructions}
-## License
-${license}
 `
       createReadme(markdownTemplate)
     }
