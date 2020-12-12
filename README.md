@@ -22,8 +22,15 @@ This project's main goal is create a README.md file from the command line interf
 
 Users can clone the repo and follow the directions in the video for usage
 
-## Usage
-
+## Usage:
+NPM install..
+```
+npm install
+```
+..then the script:
+```
+node index
+```
 [Watch the demo here!](https://drive.google.com/file/d/1r5eQA72Lrf_wjO7rDWq86Z9riucGOIyu/view)
 
 ## Contributors
